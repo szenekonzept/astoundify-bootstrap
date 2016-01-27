@@ -88,5 +88,5 @@ cd ../../../
 ##
 # Content
 ##
-# wget https://github.com/spencerfinnell/astoundify-bootstrap/blog/master/listify.xml
+wget https://raw.githubusercontent.com/spencerfinnell/astoundify-bootstrap/master/listify.xml
 vassh wp import listify.xml
