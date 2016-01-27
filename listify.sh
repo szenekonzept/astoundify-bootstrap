@@ -89,4 +89,4 @@ cd ../../../
 # Content
 ##
 wget https://raw.githubusercontent.com/spencerfinnell/astoundify-bootstrap/master/listify.xml
-vassh wp import listify.xml
+vassh wp import listify.xml --authors=create
