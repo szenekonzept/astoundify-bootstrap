@@ -88,5 +88,6 @@ cd ../../../
 ##
 # Content
 ##
+wp plugin install wordpress-importer --activate
 wget https://raw.githubusercontent.com/spencerfinnell/astoundify-bootstrap/master/listify.xml
 vassh wp import listify.xml --authors=create
