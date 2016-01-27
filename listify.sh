@@ -91,3 +91,12 @@ cd ../../../
 wp plugin install wordpress-importer --activate
 wget https://raw.githubusercontent.com/spencerfinnell/astoundify-bootstrap/master/listify.xml
 vassh wp import listify.xml --authors=create
+
+##
+# Content Options
+##
+
+vassh wp menu location assign primary primary
+vassh wp menu location assign secondary secondary
+vassh wp option update page_on_front 6
+vassh wp option update page_for_posts 15
