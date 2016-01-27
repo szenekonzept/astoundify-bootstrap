@@ -23,6 +23,8 @@ cd ../../../
 
 rm -rf htdocs/wp-content/plugins/*
 
+cd htdocs/wp-content/plugins
+
 # some .org stuff
 vassh wp plugin install debug-bar --activate
 vassh wp plugin install debug-queries --activate
