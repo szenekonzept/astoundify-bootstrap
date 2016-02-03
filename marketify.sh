@@ -39,6 +39,12 @@ wp plugin install user-switching --activate
 git clone git@github.com:easydigitaldownloads/Easy-Digital-Downloads.git easy-digital-downloads
 wp plugin activate easy-digital-downloads
 
+git clone git@github.com:easydigitaldownloads/edd-wish-lists.git
+wp plugin activate edd-wish-lists
+
+git clone git@github.com:easydigitaldownloads/edd-favorites.git
+wp plugin activate edd-favorites
+
 # fes
 git clone git@github.com:chriscct7/edd-fes.git
 wp plugin activate edd-fes
@@ -62,9 +68,3 @@ cd ../../../
 wp plugin install wordpress-importer --activate
 wget https://raw.githubusercontent.com/spencerfinnell/astoundify-bootstrap/master/marketify.xml
 wp import marketify.xml --authors=create
-
-##
-# Content Options
-##
-
-wp menu location assign primary primary
